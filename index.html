@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="dist/output.css">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section class="flex flex-col">
+
+    <div class="bg-[url(/images/image-hero.jpg)] bg-no-repeat bg-cover h-[600px] w-full
+    lg:bg-[url(/images/image-hero2.jpg)] lg:h-[600px]">
+
+      <header class="flex justify-between px-8 py-10 items-center lg:px-[120px] lg:py-12">
+        <img src="images/logo.svg" alt="" class="w-[40%] lg:w-[12%]">
+        
+        <details class="relative lg:hidden">
+          
+          <summary  class="list-none cursor-pointer"                                                          >
+            <img src="images/icon-hamburger.svg" alt="" class="w-[26px]  block lg:hidden">
+          </summary>
+
+          <div class="fixed inset-0 z-10 pt-40 bg-red-600 justify-center items-start bg-black top-full right-full   w-80  mx-auto 
+           space-y-8 flex flex-col bg-white text-center pl-10 ">
+            
+           <span class="absolute top-6 right-6 text-3xl">X</span>
+            <div>
+              <a href="">ABOUT</a>
+              <a href="">CAREERS</a>
+              <a href="">EVENTS</a>
+              <a href="">PRODUCTS</a>
+              <a href="">SUPPORT</a>
+            </div>
+
+              
+            </div>
+        </details>
+
+      
+
+        <ul class="lg:flex gap-6 hidden lg:block">
+          <li class="text-white hover:underline hover:pb-2 hover:cursor-pointer ">About</li>
+          <li class="text-white hover:underline hover:pb-2 hover:cursor-pointer ">Careers</li>
+          <li class="text-white hover:underline hover:pb-2 hover:cursor-pointer ">Events</li>
+          <li class="text-white hover:underline hover:pb-2 hover:cursor-pointer ">Products</li>
+          <li class="text-white hover:underline hover:pb-2 hover:cursor-pointer ">Supports</li>
+        </ul>
+      </header>
+
+      <h1 class="mt-[100px] p-6 mx-6 lg:w-[530px] lg:p-10 lg:mt-10 lg:mx-[120px] flex justify-between text-5xl lg:text-6xl text-white border border-white">IMMERSIVE <br> EXPERIENCES <br> THAT <br> DELIVER</h1>
+    </div>
+    
+
+    <main class="mt-20 px-6 lg:px-[120px] lg:mt-[120px]">
+        <article class="lg:flex lg:relative md:relative">
+          <img src="images/mobile/image-interactive.jpg" alt="" class="block lg:hidden md:hidden">
+          <img src="images/desktop/image-interactive.jpg" alt="" class="hidden lg:block md:hidden">
+          <img src="images/desktop/image-interactive.jpg" alt="" class="hidden lg:hidden md:block w-[900px]">
+          
+          <div class="lg:bg-white lg:absolute lg:bottom-0 md:bottom-2 lg:left-[600px] lg:p-10 ">
+          <h1 class="mt-10 text-center text-4xl font-light">THE LEADER IN INTERACTIVE VR</h1>
+          <p class="text-center text-[17px] lg:text-centre leading-[30px] px-2 mt-8">
+             Founded in 2011, Loopstudios has been producing world-class virtual reality 
+            projects for some of the best companies around the globe. Our award-winning 
+            creations have transformed businesses through digital experiences that bind 
+            to their brand.
+          </p>
+          </div>
+        </article>
+
+    </main>
+
+     <div class="mt-20 lg:flex lg:justify-between lg:px-[120px] lg:items-center lg:mt-20">
+      <h1 class="text-4xl text-center text-black">OUR CREATIONS</h1>
+      <button class="px-10 py-2 lg:border lg:border-black hidden lg:block hover:bg-black hover:text-white hover:cursor-pointer ">SEE ALL</button>
+     </div>
+
+    <section class="mt-50 gap-6 py-16  lg:mt-10 px-6 text-center flex flex-col gap-4 lg:grid lg:grid-cols-4 lg:mx-auto lg:px-10 ">
+
+      <div class="relative">
+        <img src="images/mobile/image-deep-earth.jpg" alt="" class="block lg:hidden md:hidden hover:opacity-50">
+        <img src="images/desktop/image-deep-earth.jpg" alt="" class="hidden lg:block md:hidden">
+        <img src="images/mobile/image-deep-earth.jpg" alt="" class="hidden lg:hidden md:block w-[900px]">
+        <h1 class="absolute text-left leading-tight flex items-end justify-start text-white  inset-[10%] text-[24px]">DEEP<br>EARTH</h1>
+      </div>
+
+      <div class="relative">
+        <img src="images/mobile/image-night-arcade.jpg" alt="" class="block lg:hidden md:hidden">
+        <img src="images/desktop/image-night-arcade.jpg" alt="" class="hidden lg:block md:hidden">
+        <img src="images/mobile/image-night-arcade.jpg" alt="" class="hidden lg:hidden md:block w-[900px]">
+         <h1 class="absolute text-left leading-tight flex items-end justify-start text-white  inset-[10%] text-[24px]">NIGHT<br>ARCARDE</h1>
+      </div>
+
+      <div class="relative">
+        <img src="images/mobile/image-soccer-team.jpg" alt="" class="block lg:hidden md:hidden">
+        <img src="images/desktop/image-soccer-team.jpg" alt="" class="hidden lg:block md:hidden">
+        <img src="images/mobile/image-soccer-team.jpg" alt="" class="hidden lg:hidden md:block w-[900px]">
+        <h1 class="absolute text-left leading-tight flex items-end justify-start text-white  inset-[10%] text-[24px]">SOCCER<br>TEAM VR</h1>
+      </div> 
+      
+
+      <div class="relative">
+        <img src="images/mobile/image-grid.jpg" alt="" class="block lg:hidden md:hidden">
+        <img src="images/desktop/image-grid.jpg" alt="" class="hidden lg:block md:hidden" >
+        <img src="images/mobile/image-grid.jpg" alt="" class="hidden lg:hidden md:block w-[900px]">
+        <h1 class="absolute text-left leading-tight flex items-end justify-start text-white  inset-[10%] text-[24px]">THE<br>GRID</h1>
+      </div>
+     
+      <div class="relative">
+        <img src="images/mobile/image-from-above.jpg" alt="" class="block lg:hidden md:hidden">
+        <img src="images/desktop/image-from-above.jpg" alt="" class="hidden lg:block md:hidden">
+        <img src="images/mobile/image-from-above.jpg" alt="" class="hidden lg:hidden md:block w-[900px]">
+         <h1 class="absolute text-left leading-tight flex items-end justify-start text-white  inset-[10%] text-[24px]">FROM UP<br>ABOVE VR</h1>
+      </div>
+
+      <div class="relative">
+        <img src="images/mobile/image-pocket-borealis.jpg" alt="" class="block lg:hidden md:hidden">
+        <img src="images/desktop/image-pocket-borealis.jpg" alt="" class="hidden lg:block md:hidden" >
+        <img src="images/mobile/image-pocket-borealis.jpg" alt="" class="hidden lg:hidden md:block w-[900px]">
+         <h1 class="absolute text-left leading-tight flex items-end justify-start text-white  inset-[10%] text-[24px]">POCKET<br>BOREALIS</h1>
+      </div>
+    
+      <div class="relative">
+        <img src="images/mobile/image-curiosity.jpg" alt="" class="block lg:hidden md:hidden">
+        <img src="images/desktop/image-curiosity.jpg" alt="" class="hidden lg:block md:hidden">
+        <img src="images/mobile/image-curiosity.jpg" alt="" class="hidden lg:hidden md:block w-[900px]">
+         <h1 class="absolute text-left leading-tight flex items-end justify-start text-white  inset-[10%] text-[24px]">THE<br>CURIOSITY</h1>
+      </div>
+     
+      <div class="relative">
+        <img src="images/mobile/image-fisheye.jpg" alt="" class="block lg:hidden md:hidden">
+        <img src="images/desktop/image-fisheye.jpg" alt="" class="hidden lg:block md:hidden">
+        <img src="images/mobile/image-fisheye.jpg" alt="" class="hidden lg:hidden md:block w-[900px]">
+        <h1 class="absolute text-left leading-tight flex items-end justify-start text-white  inset-[10%] text-[24px]">MAKE<br>IT FISHEYES</h1>
+      </div>
+       <button class="mt-2 md:px-20  px-14 py-1 text-[20px] border mx-auto border-black
+        font-bold lg:hidden">SEE ALL</button>
+    </section>
+   
+
+
+    <footer class="py-20 px-6 mt-10 flex flex-col bg-black text-center lg:px-[120px] lg:items-center lg:flex lg:flex-row lg:justify-between lg:gap-8 ">
+
+      <div class="lg:gap-2">
+        <div class="px-2"><img src="images/logo.svg" alt="" class=" w-[40%] mx-auto lg:hidden"></div>
+        <div class="px-2"><img src="images/logo.svg" alt="" class=" w-[40%] lg:flex lg:flex-col lg:flex-start lg:w-[50%] hidden lg:block"></div>
+      <ul class="mt-4 lg:flex lg:flex-row lg:justify-end lg:gap-4   ">
+        <li class="text-white p-3 lg:px-1 text-[15px] lg:text-[12px] hover:underline hover:pb-2 hover:cursor-pointer  ">About</li>
+        <li class="text-white p-3 lg:px-1 text-[15px] lg:text-[12px] hover:underline hover:pb-2 hover:cursor-pointer  ">Careers</li>
+        <li class="text-white p-3 lg:px-1 text-[15px] lg:text-[12px] hover:underline hover:pb-2 hover:cursor-pointer ">Events</li>
+        <li class="text-white p-3 lg:px-1 text-[15px] lg:text-[12px] hover:underline hover:pb-2 hover:cursor-pointer ">Products</li>
+        <li class="text-white p-3 lg:px-1 text-[15px] lg:text-[12px] hover:underline hover:pb-2 hover:cursor-pointer ">Support</li>
+      </ul>
+      </div>
+
+     <div class="mt-6 lg:mt-0">
+       <div class="flex mb-6 flex-row justify-center gap-[10px] px-auto gap-2 lg:mb-6 px-6 lg:justify-end">
+        <img src="images/icon-facebook.svg" alt="" class="lg:w-[12%] hover:underline hover:pb-2 hover:cursor-pointer " >
+        <img src="images/icon-twitter.svg" alt="" class="lg:w-[12%]hover:underline hover:pb-2 hover:cursor-pointer  " >
+        <img src="images/icon-pinterest.svg" alt="" class="lg:w-[12%] hover:underline hover:pb-2 hover:cursor-pointer ">
+        <img src="images/icon-instagram.svg" alt="" class="lg:w-[12%] hover:underline hover:pb-2 hover:cursor-pointer ">
+      </div>
+      <span class="text-white text-[14px] lg:flex lg:justify-end lg:text-[12px] font-light"> © 2021 Loopstudios. All rights reserved.</span>
+     </div>
+      <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    </footer>
+     
+  </section>
+ 
+
+  
+
+  
+
+ 
+
+  
+ 
+ 
+
+ 
+</body>
+</html>
